@@ -62,7 +62,7 @@ function App() {
 
 
   return (
-    <div className="App ${theme} font-robotoMono">
+    <div className="App ${theme} font-robotoMono p-0 m-0">
 		<div id="splash-page" onClick={onClick}> {showSplash ? <Welcome /> : null}</div>
 		<button
 			type="button"

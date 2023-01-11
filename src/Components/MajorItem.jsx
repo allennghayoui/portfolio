@@ -2,7 +2,7 @@ import React from "react";
 
 function MajorItem({title, date, details, location, coursesCompleted, currentlyEnrolled}) {
     return (
-        <div id="major-item" className="Major items-left justify-left text-left whitespace-nowrap">
+        <div id="major-item" className="Major items-left justify-left text-left whitespace-pre-wrap">
             <p className="date font-bold dark:text-stone-300">{date}</p>
             <h3 className="location font-medium text-md md:text-xl dark:text-stone-300">{location}</h3>
             <div className="pt-4">

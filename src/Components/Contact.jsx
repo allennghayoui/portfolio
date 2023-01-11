@@ -10,10 +10,10 @@ function Contact() {
         <div id="contact" className="flex flex-col mt-20 items-center justify-center text-center">
             <Title>Contact</Title>
 
-                <div id="socials" className="flex flex-col items-start pt-20 lg:text-3xl md:text-2xl text-xl text-black dark:text-stone-300">
+                <div id="socials" className="flex flex-col whitespace-pre-wrap items-start pt-20 lg:text-3xl md:text-2xl text-xl text-black dark:text-stone-300">
                     <div className="flex flex-row">
                         <a href="https://mail.google.com/mail/?view=cm&fs=1&to=allen.nghayoui@gmail.com">
-                            <div className="flex flex-row gap-8">
+                            <div className="flex flex-row gap-8 flex-wrap">
                                 <AiOutlineMail className="mt-1" />
                                 <label className="cursor-pointer">allen.nghayoui@gmail.com</label>
                             </div>
@@ -23,7 +23,7 @@ function Contact() {
                     
                     <div className="flex flex-row">
                         <a href="https://github.com/allennghayoui">
-                            <div className="flex flex-row gap-8">
+                            <div className="flex flex-row gap-8 flex-wrap">
                                     <AiFillGithub className="mt-1" />
                                     <label className="cursor-pointer">github.com/allennghayoui</label>
                             </div>
@@ -33,7 +33,7 @@ function Contact() {
                     
                     <div className="flex flex-row">
                         <a href="https://www.linkedin.com/in/allennghayoui/">
-                            <div className="flex flex-row gap-8">
+                            <div className="flex flex-row gap-8 flex-wrap">
                                 <AiFillLinkedin className="mt-1" />
                                 <label className="cursor-pointer">linkedin.com/in/allennghayoui</label>
                             </div>

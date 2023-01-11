@@ -1,8 +1,8 @@
 import React from "react";
-
+//  pr-[166px]
 function MinorItem({title, coursesCompleted, currentlyEnrolled}) {
     return (
-        <div id="minor-item" className="MinorItem items-left justify-left text-left pt-4 whitespace-nowrap pr-[166px]">
+        <div id="minor-item" className="MinorItem items-left justify-left text-left pt-4 whitespace-pre-wrap">
             <h2 className="title font-semibold text-lg md:text-2xl
                              dark:text-stone-300">{title}</h2>
 
