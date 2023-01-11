@@ -5,11 +5,11 @@ function MajorItem({title, date, details, location, coursesCompleted, currentlyE
         <div id="major-item" className="Major items-left justify-left text-left whitespace-nowrap">
             <p className="date font-bold dark:text-stone-300">{date}</p>
             <h3 className="location font-medium text-md md:text-xl dark:text-stone-300">{location}</h3>
-            <div className="MajorItem pt-4">
-                <h2 className="title font-semibold text-lg md:text-2xl md:whitespace-pre-wrap
+            <div className="pt-4">
+                <h2 className="title font-semibold text-lg md:text-2xl whitespace-pre-wrap
                                 dark:text-stone-300">{title}</h2>
 
-                <ul className="list-disc text-md pl-8 md:text-xl md:pl-14 dark:text-stone-300">
+                <ul className="list-disc text-md pl-8 md:text-xl md:pl-14 whitespace-pre-wrap dark:text-stone-300">
 
                     {details.map(point => <li>{point}</li>)}
 

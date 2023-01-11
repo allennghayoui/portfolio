@@ -67,7 +67,7 @@ function App() {
 		<button
 			type="button"
 			onClick={toggleTheme}
-			className="fixed p-4 z-10 right-20 top-20 rounded-full bg-neutral-400"
+			className="fixed p-4 z-10 right-10 top-32 md:top-44 md:right-20 rounded-full bg-neutral-400"
 		>
 			{lightBulb}
 		</button>
