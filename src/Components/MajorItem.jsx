@@ -9,7 +9,7 @@ function MajorItem({title, date, details, location, coursesCompleted, currentlyE
                 <h2 className="title font-semibold text-lg md:text-2xl whitespace-pre-wrap
                                 dark:text-stone-300">{title}</h2>
 
-                <ul className="list-disc text-md pl-8 md:text-xl md:pl-14 whitespace-pre-wrap dark:text-stone-300">
+                <ul className="list-disc text-md pl-8 md:text-xl md:pl-14 dark:text-stone-300">
 
                     {details.map(point => <li>{point}</li>)}
 
