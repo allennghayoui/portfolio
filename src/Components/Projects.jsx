@@ -15,6 +15,7 @@ function Projects()
                         title={item.title}
                         stack={item.stack}
                         imgUrl={item.imgUrl}
+                        link={item.link}
                     />
                 ))}
             </div>
