@@ -14,7 +14,6 @@ function Projects()
                     <ProjectsItem
                         title={item.title}
                         stack={item.stack}
-                        imgUrl={item.imgUrl}
                         link={item.link}
                     />
                 ))}
