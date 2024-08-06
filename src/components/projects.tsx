@@ -26,7 +26,7 @@ const Projects = ({ projects }: ProjectsProps) => {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="flex h-full w-[25rem] flex-col items-start justify-between gap-6 bg-white px-6 py-4 text-slate-950"
+              className="flex h-full w-[18rem] flex-col items-start justify-between gap-6 bg-white px-6 py-4 text-slate-950 min-[480px]:w-[25rem]"
             >
               <h2 className="text-xl font-semibold">{project.title}</h2>
 
@@ -113,7 +113,7 @@ const Projects = ({ projects }: ProjectsProps) => {
       )}
 
       {projects.length > 1 && (
-        <div className="grid w-full grid-cols-1 items-center justify-items-center gap-10 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid w-[18rem] auto-rows-fr grid-cols-1 items-center justify-items-center gap-10 min-[480px]:w-[25rem] md:w-full md:grid-cols-2 xl:grid-cols-3">
           {projects.map((project, index) => (
             <div
               key={index}

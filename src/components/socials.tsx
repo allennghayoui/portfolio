@@ -9,7 +9,7 @@ interface SocialsProps {
 
 const Socials = ({ socials }: SocialsProps) => {
   return (
-    <div className="grid w-full grid-cols-2 place-content-between justify-items-center gap-y-4 lg:grid-cols-4">
+    <div className="grid w-full grid-cols-1 place-content-between justify-items-center gap-y-4 min-[330px]:grid-cols-2 lg:grid-cols-4">
       {socials.map((social, index) => (
         <Link
           className="flex w-fit items-center gap-2 hover:underline"

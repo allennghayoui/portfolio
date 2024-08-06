@@ -62,7 +62,7 @@ const Certificates = ({ certificates }: CertificatesProps) => {
       )}
 
       {certificates.length > 1 && (
-        <div className="grid w-full grid-cols-1 items-center justify-items-center gap-10 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid w-[18rem] auto-rows-fr grid-cols-1 items-center justify-items-center gap-10 min-[480px]:w-[25rem] md:w-full md:grid-cols-2 lg:grid-cols-3">
           {certificates.map((certificate, index) => (
             <div
               key={index}

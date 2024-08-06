@@ -14,9 +14,9 @@ import { workExperiences } from "@/data/work-experiences";
 
 export default function Home() {
   return (
-    <main className="flex size-full flex-col items-center gap-20 px-20 py-24 lg:px-40 xl:px-60">
+    <main className="flex size-full flex-col items-center gap-20 px-2 py-24 sm:px-10 xl:px-20 2xl:px-60">
       <div className="flex size-full flex-col items-center gap-10">
-        <div className="flex w-fit items-center gap-14 px-10 lg:px-20">
+        <div className="flex w-fit items-center gap-4 px-10 min-[350px]:gap-14 lg:px-20">
           <ProfilePicture />
           <h1 className="text-4xl font-black sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl">
             ALLEN NGHAYOUI
@@ -32,7 +32,7 @@ export default function Home() {
           <hr className="w-80" />
         </div>
 
-        <p className="text-justify text-lg">
+        <p className="px-5 text-justify sm:px-0 sm:text-lg">
           I've been interested in technology and computers for as long as I can
           remember. At age 13, I saved up some money and purchased the parts I
           needed to build my first custom PC. Two years later, I enrolled in a
@@ -51,16 +51,16 @@ export default function Home() {
         <hr className="w-80" />
         <div className="flex w-full flex-col items-start gap-4">
           <div className="flex flex-col items-start">
-            <h3 className="text-lg font-medium">
+            <h3 className="font-medium sm:text-lg">
               Notre Dame University - Louaize (Sept 2021 - July 2024)
             </h3>
-            <h3 className="text-3xl font-semibold">
+            <h3 className="text-xl font-semibold sm:text-3xl">
               Bachelor of Science in Computer Science
             </h3>
           </div>
-          <div className="flex w-full items-center gap-10">
-            <p className="text-lg">GPA: 3.99/4.0</p>
-            <p className="text-lg">Honors: Summa Cum Laude</p>
+          <div className="flex w-full flex-col items-start gap-4 sm:flex-row sm:items-center sm:gap-10">
+            <p className="sm:text-lg">GPA: 3.99/4.0</p>
+            <p className="sm:text-lg">Honors: Summa Cum Laude</p>
           </div>
         </div>
       </div>
