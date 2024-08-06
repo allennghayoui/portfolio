@@ -7,7 +7,7 @@ interface MarkdownRendererProps {
 const MarkdownRenderer = ({ markdown }: MarkdownRendererProps) => {
   return (
     <Markdown
-      className="prose prose-slate prose-xl"
+      className="prose prose-slate md:prose-xl"
       components={{
         code: (props) => {
           const { node, ...rest } = props;

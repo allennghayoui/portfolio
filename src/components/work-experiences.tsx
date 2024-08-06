@@ -53,7 +53,7 @@ const WorkExperiences = ({ workExperiences }: WorkExperiencesProps) => {
                       <DoubleArrowRightIcon />
                     </DialogTrigger>
 
-                    <DialogContent className="flex w-[50rem] flex-col items-start">
+                    <DialogContent className="flex w-[18rem] flex-col items-start overflow-auto min-[400px]:w-[24rem] md:w-[40rem] lg:w-[50rem]">
                       <DialogHeader>
                         <DialogTitle className="text-xl text-slate-900">
                           {experience.title}
@@ -105,7 +105,7 @@ const WorkExperiences = ({ workExperiences }: WorkExperiencesProps) => {
                       <DoubleArrowRightIcon />
                     </DialogTrigger>
 
-                    <DialogContent className="flex w-[50rem] flex-col items-start">
+                    <DialogContent className="flex w-[18rem] flex-col items-start overflow-auto min-[400px]:w-[24rem] md:w-[40rem] lg:w-[50rem]">
                       <DialogHeader>
                         <DialogTitle className="text-xl text-slate-900">
                           {experience.title}

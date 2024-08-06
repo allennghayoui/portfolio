@@ -92,7 +92,7 @@ const Projects = ({ projects }: ProjectsProps) => {
                           <DoubleArrowRightIcon />
                         </DialogTrigger>
 
-                        <DialogContent className="flex w-[50rem] flex-col items-start">
+                        <DialogContent className="flex w-[18rem] flex-col items-start min-[400px]:w-[24rem] md:w-[40rem] lg:w-[50rem]">
                           <DialogHeader>
                             <DialogTitle className="text-xl text-slate-900">
                               {project.title}
@@ -149,7 +149,7 @@ const Projects = ({ projects }: ProjectsProps) => {
                           <DoubleArrowRightIcon />
                         </DialogTrigger>
 
-                        <DialogContent className="flex w-[50rem] flex-col items-start">
+                        <DialogContent className="flex max-h-[40rem] w-[18rem] flex-col items-start overflow-auto min-[400px]:w-[24rem] md:w-[40rem] lg:w-[50rem]">
                           <DialogHeader>
                             <DialogTitle className="text-xl text-slate-900">
                               {project.title}
@@ -180,7 +180,7 @@ const Projects = ({ projects }: ProjectsProps) => {
                         <DoubleArrowRightIcon />
                       </DialogTrigger>
 
-                      <DialogContent className="flex w-[50rem] flex-col items-start">
+                      <DialogContent className="flex max-h-[40rem] w-[18rem] flex-col items-start overflow-auto min-[400px]:w-[24rem] md:w-[40rem] lg:w-[50rem]">
                         <DialogHeader>
                           <DialogTitle className="text-xl text-slate-900">
                             {project.title}
