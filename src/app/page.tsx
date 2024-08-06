@@ -27,7 +27,7 @@ export default function Home() {
       </div>
 
       <div className="flex flex-col items-center gap-10">
-        <div className="flex flex-col items-center gap-4">
+        <div className="flex w-full flex-col items-center gap-4">
           <h1 className="text-4xl font-bold">About Me</h1>
           <hr className="w-80" />
         </div>
@@ -46,9 +46,11 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="flex w-full flex-col items-center gap-4">
-        <h1 className="text-4xl font-bold">Education</h1>
-        <hr className="w-80" />
+      <div className="flex w-full flex-col items-center gap-4 px-5 sm:px-0">
+        <div className="flex w-full flex-col items-center gap-4">
+          <h1 className="text-4xl font-bold">Education</h1>
+          <hr className="w-80" />
+        </div>
         <div className="flex w-full flex-col items-start gap-4">
           <div className="flex flex-col items-start">
             <h3 className="font-medium sm:text-lg">
@@ -66,7 +68,7 @@ export default function Home() {
       </div>
 
       <div className="flex w-full flex-col items-center gap-10">
-        <div className="flex flex-col items-center gap-4">
+        <div className="flex w-full flex-col items-center gap-4">
           <h1 className="text-4xl font-bold">Experience</h1>
           <hr className="w-80" />
         </div>
@@ -74,7 +76,7 @@ export default function Home() {
       </div>
 
       <div className="flex w-full flex-col items-center gap-10">
-        <div className="flex flex-col items-center gap-4">
+        <div className="flex w-full flex-col items-center gap-4">
           <h1 className="text-4xl font-bold">Projects</h1>
           <hr className="w-80" />
         </div>
@@ -82,15 +84,15 @@ export default function Home() {
       </div>
 
       <div className="flex w-full flex-col items-center gap-10">
-        <div className="flex flex-col items-center gap-4">
+        <div className="flex w-full flex-col items-center gap-4">
           <h1 className="text-4xl font-bold">Certificates</h1>
           <hr className="w-80" />
         </div>
         <Certificates certificates={certificates.toReversed()} />
       </div>
 
-      <div className="flex w-full flex-col items-center gap-10">
-        <div className="flex flex-col items-center gap-4">
+      <div className="flex w-full flex-col items-center gap-10 px-5 sm:px-0">
+        <div className="flex w-full flex-col items-center gap-4">
           <h1 className="text-4xl font-bold">Technologies and Skills</h1>
           <hr className="w-80" />
         </div>
@@ -98,8 +100,8 @@ export default function Home() {
         <Skills skills={skills} />
       </div>
 
-      <div className="flex w-full flex-col items-center gap-10">
-        <div className="flex flex-col items-center gap-4">
+      <div className="flex w-full flex-col items-center gap-10 px-5 sm:px-0">
+        <div className="flex w-full flex-col items-center gap-4">
           <h1 className="text-4xl font-bold">Interests</h1>
           <hr className="w-80" />
         </div>
